@@ -1,9 +1,10 @@
+namespace Task2 
+{
 using OneVariableFunction = System.Func<double, double>;
 using FunctionName = System.String;
 using System.Text;
 
-namespace Task2
-{
+
     public class Task2
     {
 
@@ -74,9 +75,9 @@ namespace Task2
         // после десятичной точки.
         internal record FunctionTable
         {
-            public double[,] Results;   // двумерный массив со значениями функций
+            public double[,] Results; // двумерный массив со значениями функций
             public int Precision;
-            public string[] Top;   // шапка таблицы
+            public string[] Top; // шапка таблицы
 
 
             public FunctionTable(int precision, string[] top, double[,] results)
@@ -176,14 +177,10 @@ namespace Task2
             {
                 return;
             }
+
             // Собственно табулирование и печать результата (что надо поменять в этой строке?):
             Console.WriteLine(tabulate(input));
         }
-
-
-
-
-   
 
     }
 }
