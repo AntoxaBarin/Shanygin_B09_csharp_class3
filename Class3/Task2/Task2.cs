@@ -1,3 +1,10 @@
+using OneVariableFunction = System.Func<double, double>;
+using FunctionName = System.String;
+using System.Text;
+
+namespace Task2
+{
+    public class Task2
     {
 
         /*
@@ -172,4 +179,11 @@
             // Собственно табулирование и печать результата (что надо поменять в этой строке?):
             Console.WriteLine(tabulate(input));
         }
+
+
+
+
+   
+
     }
+}
