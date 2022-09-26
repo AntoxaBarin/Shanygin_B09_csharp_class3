@@ -181,6 +181,9 @@ using System.Text;
             // Собственно табулирование и печать результата (что надо поменять в этой строке?):
             Console.WriteLine(tabulate(input));
         }
-
+        private static T TODO<T>()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
