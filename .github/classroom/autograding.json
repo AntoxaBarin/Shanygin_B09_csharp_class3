@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Task 1",
+      "setup": "",
+      "run": "export DOTNET_CLI_HOME=$(pwd); dotnet test Class3/Task1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Task 2",
+      "setup": "",
+      "run": "export DOTNET_CLI_HOME=$(pwd); dotnet test Class3/Task2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
