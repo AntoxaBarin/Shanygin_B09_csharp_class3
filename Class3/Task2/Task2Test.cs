@@ -15,7 +15,7 @@ public class Tests
     [Test]
     public void TabulateTest()
     {
-        var funNames = new List<string> { "square", "sin" };
+        var funNames = new List<string> { "square", "sin", "cos", "tan", "square root", "arcsin", "arcos", "arctan", "abs", "log2" };
         var nOfPoints = 10;
         var res = tabulate(new InputData(0.0, 10.0, nOfPoints, funNames));
         var lines = res.ToString().Split(Environment.NewLine);
