@@ -13,8 +13,8 @@ internal enum Suit
 {
     clubs,
     diamonds,
-    hearts,
-    spades
+    spades,
+    hearts
 }
 
 // Значение
