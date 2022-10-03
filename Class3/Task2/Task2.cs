@@ -82,6 +82,7 @@ using System.Text;
 
             public FunctionTable(int precision, string[] top, double[,] results)
             {
+                
                 Top = top;
                 Results = results;
                 Precision = precision;
